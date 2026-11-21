@@ -21,7 +21,7 @@ function LinkedinIcon({ className = 'w-3.5 h-3.5' }) {
 
 export default function ContactSection() {
   const whatsappUrl = `https://wa.me/916374311373?text=${encodeURIComponent(
-    'Hi Subbaiah, I would like to discuss a software project.'
+    'Hi Subbaiah, I would like to get in touch.'
   )}`;
 
   return (
@@ -30,13 +30,13 @@ export default function ContactSection() {
         <div className="max-w-3xl mx-auto text-center">
           {/* Header */}
           <span className="text-xs font-semibold uppercase tracking-wider text-blue-700 bg-blue-50 px-3 py-1 rounded-full border border-blue-100">
-            Project Enquiry
+            Get in Touch
           </span>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mt-3 mb-4">
-            Let’s discuss your project requirements.
+            Let’s connect and collaborate.
           </h2>
           <p className="text-base sm:text-lg text-slate-600 leading-relaxed mb-10 max-w-xl mx-auto">
-            Whether you need a business website, custom operational software, a backend API, or a mobile application, feel free to reach out directly.
+            Whether you are discussing engineering opportunities, software development, backend architectures, or mobile apps, feel free to reach out directly.
           </p>
 
           {/* Contact Direct Cards */}
@@ -49,7 +49,7 @@ export default function ContactSection() {
                 </div>
                 <h3 className="text-sm font-bold text-slate-900">Email Directly</h3>
                 <p className="text-xs text-slate-500 mt-1 mb-4">
-                  Send your project brief or inquiry.
+                  Send a direct message or inquiry.
                 </p>
                 <div className="text-xs font-mono font-medium text-slate-700 break-all mb-4">
                   {siteConfig.contact.email}
@@ -58,7 +58,7 @@ export default function ContactSection() {
               <Button
                 variant="primary"
                 size="sm"
-                href={`mailto:${siteConfig.contact.email}?subject=Project%20Enquiry`}
+                href={`mailto:${siteConfig.contact.email}?subject=Hello%20Subbaiah`}
                 className="w-full justify-center"
               >
                 Send Email

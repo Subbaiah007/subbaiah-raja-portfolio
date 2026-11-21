@@ -2,8 +2,6 @@ export const siteConfig = {
   name: 'Subbaiah Raja',
   title: 'Software Developer',
   location: 'Chennai, India',
-  freelanceAvailable: true,
-  availabilityText: 'Available for freelance projects',
   contact: {
     email: 'tharunsubbu2719@gmail.com',
     phone: '+91 6374311373',

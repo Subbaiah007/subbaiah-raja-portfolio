@@ -1,7 +1,7 @@
 import * as Motion from 'motion/react';
 import Container from '../components/Container';
 import Button from '../components/Button';
-import { ArrowUpRight, MapPin, CheckCircle2, FileText, Briefcase } from 'lucide-react';
+import { ArrowUpRight, CheckCircle2, FileText, Briefcase } from 'lucide-react';
 import { siteConfig } from '../data/siteConfig';
 
 function GithubIcon({ className = 'w-4 h-4' }) {
@@ -35,29 +35,6 @@ export default function HeroSection() {
 
       <Container>
         <div className="max-w-3xl">
-          {/* Centrally Configured Freelance Status Badge */}
-          {siteConfig.freelanceAvailable && (
-            <Motion.motion.div
-              initial={{ opacity: 0, y: 12 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.4 }}
-              className="inline-flex flex-wrap items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-100/90 border border-slate-200/80 text-slate-700 text-xs font-medium mb-6 shadow-2xs leading-normal"
-            >
-              <span className="flex items-center gap-2">
-                <span className="relative flex h-2 w-2">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-                  <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
-                </span>
-                <span>{siteConfig.availabilityText}</span>
-              </span>
-              <span className="text-slate-300 hidden sm:inline">•</span>
-              <span className="flex items-center gap-1 text-slate-600">
-                <MapPin className="w-3 h-3 text-slate-400" />
-                {siteConfig.location}
-              </span>
-            </Motion.motion.div>
-          )}
-
           {/* Main Title */}
           <Motion.motion.h1
             initial={{ opacity: 0, y: 16 }}

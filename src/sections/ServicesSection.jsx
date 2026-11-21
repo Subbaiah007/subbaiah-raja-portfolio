@@ -4,14 +4,14 @@ import { Globe, LayoutGrid, Database, Smartphone, Check } from 'lucide-react';
 export default function ServicesSection() {
   const services = [
     {
-      title: 'Business Websites',
+      title: 'Web Applications',
       icon: Globe,
       description:
-        'Clean, responsive websites tailored for local businesses, professionals, and startups to present their offerings clearly and turn visitors into client enquiries.',
+        'Clean, responsive web applications and websites tailored for modern businesses and startups to present offerings clearly and engage users effectively.',
       points: [
         'Mobile-friendly responsive design',
-        'Clear service presentation & call-to-actions',
-        'Contact & enquiry integration',
+        'Intuitive interface & clear call-to-actions',
+        'Seamless contact & enquiry integration',
       ],
     },
     {
